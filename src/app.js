@@ -7,9 +7,13 @@ const PORT = 3001;
 app.use(express.static(path.join(__dirname, "../public")));
 
 // Levantar un servidor 
-app.listen(PORT, () =>
-    console.log("Servidor Funcionando en", PORT)
-);
+app.listen(PORT, () => {
+    // crea un nuevo objeto `Date`
+    var today = new Date();
+    // obtener la fecha y la hora
+    var now = today.toLocaleString();
+    console.log("Servidor Funcionando en", PORT, "Hora:", now);
+});
 
 // Declarar dirreciones
 app.get("/", (req, res) => {
