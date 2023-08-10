@@ -7,18 +7,10 @@ const PORT = 3001;
 app.use(express.static(path.join(__dirname, "../public")));
 
 // Levantar un servidor 
-app.listen(PORT, () => {
-    // crea un nuevo objeto `Date`
-    var today = new Date();
-    // obtener la fecha y la hora
-    var now = today.toLocaleString();
-    console.log("Servidor Funcionando en", PORT, "Hora:", now);
-});
+app.listen(PORT, () =>
+    console.log("Servidor Funcionando en", PORT)
+);
 
-// Declarar dirreciones
 app.get("/", (req, res) => {
-    res.send("Hola Mundo!");
-})
-app.get("/home", (req, res) => {
     res.sendFile(path.join(__dirname, "/views/home.html"))
 })
