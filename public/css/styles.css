@@ -13,10 +13,10 @@
     
     .logo-header {
         width: 50%;
+        align-self: center;
     }
     
     .logo-header img {
-        align-self: center;
         width: 100%;
         padding: 20px;
     }
@@ -142,6 +142,7 @@
         position: absolute;
         right: 15px;
         top: -15px;
+        transition: transform 0.3s ease;
     }
     
     .price {
@@ -270,11 +271,13 @@
    }
 
    .button-register{
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
         text-align: center;
    }
    .button-register .blue{
-        width: 90%;
+        flex:2;
         background-color: #1259c3;
         color: white;
         border: none;
@@ -284,14 +287,14 @@
         border-radius: 8px;
    }
    .button-register .red {
-    width: 80%;
-    background-color: red;
-    color: white;
-    border: none;
-    font-size: 20px;
-    padding: 12px;
-    margin: 10px;
-    border-radius: 8px;
+        flex: 1;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 20px;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 8px;
    }
 
    .button-register .blue:hover{
@@ -310,11 +313,21 @@
     background-color: #0022AA;
     }
 
+    .div-register-form input:focus {
+        outline: none;
+        border-color:#eac926; /* Color azul cuando el input recibe el foco */
+
+    }
+
+    /*MOviiento truck*/
+    .div-articulo-main:hover i {
+        transform: scaleX(-1);
+    }
+
 
     /* Comienza el footer */
     
     .section-footer {
-        display: block;
         text-align: center;
         width: 90vw;
         padding: 20px;
@@ -351,14 +364,7 @@
         .option label{
             font-size: 16px;
         }
-        .button-register .red{
-            font-size: 16px;
-            padding: 5px;
-            margin: 5px;
-        }
-        .formulario-register {
-            flex:none;
-        }
+        
     }
 
     @media (max-width: 583px){
@@ -367,6 +373,11 @@
             width: 100%;
             flex:none;
         }
+        .button-register .red {
+            font-size: 12px;
+        
+       }
+
     }
     
     @media (min-width: 481px) {
@@ -376,9 +387,6 @@
         }
         .burger-menu {
             display: none;
-        }
-        .lg-w-33 {
-            flex: 1;
         }
         .option{
             padding-right: 0px;
@@ -411,6 +419,10 @@
         .lg-w-33-footer {
             flex: 1;
         }
+        .section-footer{
+            padding: 10px;
+            width: 60%;
+        }
     }
     
     @media (min-width: 1281px) {
@@ -420,5 +432,8 @@
         .articulo-main:hover{
             transition: 10ms;
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+        .section-footer{
+            flex: 1;
         }
     }
