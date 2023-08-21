@@ -1,1 +1,424 @@
+    .contariner-header {
+        background-color: #eac926;
+        padding: 8px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .conteiner-top-header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .logo-header {
+        width: 50%;
+    }
+    
+    .logo-header img {
+        align-self: center;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .search-header {
+        padding: 20px;
+        width: 50%;
+        align-self: center;
+    }
+    
+    .form-search-header {
+        display: flex;
+        padding: 8px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .form-search-header input {
+        flex-grow: 1;
+        border: none;
+        outline: none;
+        font-size: 18px;
+    }
+    
+    .form-search-header button {
+        background-color: white;
+        border: none;
+    }
+    
+    .coutas-top-header {
+        text-align: center;
+        align-self: center;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .nav-header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .nav-ul {
+        width: auto;
+        justify-content: left;
+        display: flex;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+    
+    .auth {
+        width: auto;
+        justify-content: right;
+        flex-wrap: wrap;
+    }
+    
+    .nav-link {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0 5px;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .nav-link i {
+        margin-right: 5px;
+    }
+    
+    .burger-menu {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .burger-menu i {
+        padding: 8px;
+        background-color: #1259c3;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+    /* Comienzo Main */
+    
+    .section-main {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 8px;
+        gap: 10px;
+    }
+    
+    .title-section-main {
+        font-size: 24px;
+        width: 100%;
+    }
+    
+    .articulo-main {
+        background-color: white;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    .articulo-main img {
+        width: 100%;
+    }
+    
+    .div-articulo-main {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: solid 1px #ebebeb;
+        padding: 8px;
+        position: relative;
+    }
+    
+    .div-articulo-main i {
+        color: green;
+        border: green solid 1px;
+        border-radius: 50%;
+        padding: 5px;
+        position: absolute;
+        right: 15px;
+        top: -15px;
+    }
+    
+    .price {
+        font-size: 18px;
+        margin-right: 8px;
+        margin-top: 5px;
+    }
+    
+    .discount {
+        font-size: 16px;
+        color: green;
+        margin-top: 7px;
+    }
+    
+    .description {
+        font-size: 16px;
+        width: 100%;
+        text-decoration: none;
+        font-weight: lighter;
+        color: #666;
+    }
+    /* Comienzo Login */
+    .login-form {
+        width: 100%;
+    }
+    
+    .login-form div {
+        text-align: center;
+    }
+    
+    .input-login-form {
+        border: none;
+        width: 80%;
+        font-size: 20px;
+        padding: 20px;
+        margin: 15px;
+        border-radius: 8px;
+    }
 
+    .buttom-login-form {
+        background-color: #1259c3;
+        color: white;
+        border: none;
+        width: 80%;
+        font-size: 20px;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 8px;
+    }
+     /* Comienza el Register */
+
+    .register-form{
+        background-color: white;
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .div-register-form{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5px;
+    }
+    .formulario-register {
+        flex:2;
+    }
+    .datos-register{
+        flex:1;
+   }
+    .formulario-register label {
+        display: block;
+        margin-left: 15px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .formulario-register input {
+        border: 1px solid #666;
+        width: 95%;
+        font-size: 16px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+   .datos-register-title{
+    display: block;
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+    }
+
+   .radio-options{
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 10px 0px 5px 15px;
+    border-radius: 5px;
+   }
+   .radio-options label{
+    padding: 10px;
+    padding-left: 5px;
+   }
+
+
+   .checkbox-options{
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 10px 0px 5px 15px;
+    border-radius: 5px;
+   }
+
+   .checkbox-options label{
+    padding: 10px;
+    padding-left: 5px;
+   }
+
+   .option{
+    display: block;
+    padding: 10px;
+    padding-left: 2px;
+    padding-top: 0px;
+   }
+
+   .button-register{
+        width: 100%;
+        text-align: center;
+   }
+   .button-register .blue{
+        width: 90%;
+        background-color: #1259c3;
+        color: white;
+        border: none;
+        font-size: 20px;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 8px;
+   }
+   .button-register .red {
+    width: 80%;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+   }
+
+   .button-register .blue:hover{
+    transition: background-color 0.3s;
+    background-color: #0022AA;
+    }
+
+    .button-register .red:hover{
+        transition: background-color 0.3s;
+        background-color: rgb(104, 0, 0);
+    }
+
+
+    .buttom-login-form:hover{
+    transition: background-color 0.3s;
+    background-color: #0022AA;
+    }
+
+
+    /* Comienza el footer */
+    
+    .section-footer {
+        display: block;
+        text-align: center;
+        width: 90vw;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .section-footer i {
+        color: #1259c3;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    .section-footer h2 {
+        margin-bottom: 10px;
+    }
+    
+    .Copyright {
+        width: 100%;
+        color: #666;
+    }
+    
+    @media (max-width: 480px) {
+        /* mobile */
+        .nav-header {
+            display: none;
+        }
+        .option{
+            padding-right: 0px;
+            font-size: 16px;
+        }
+        .option label{
+            font-size: 16px;
+        }
+        .button-register .red{
+            font-size: 16px;
+            padding: 5px;
+            margin: 5px;
+        }
+        .formulario-register {
+            flex:none;
+        }
+    }
+
+    @media (max-width: 583px){
+
+        .formulario-register {
+            width: 100%;
+            flex:none;
+        }
+    }
+    
+    @media (min-width: 481px) {
+        /* tablet */
+        .md-w-50 {
+            width: 48%;
+        }
+        .burger-menu {
+            display: none;
+        }
+        .lg-w-33 {
+            flex: 1;
+        }
+        .option{
+            padding-right: 0px;
+            font-size: 16px;
+        }
+
+        
+    }
+    
+    @media (min-width: 769px) {
+        /* laptop */
+        .lg-w-25 {
+            width: 23%;
+        }
+        .lg-w-33 {
+            flex: 1;
+        }
+        .articulo-main {
+            box-shadow: none;
+        }
+        .description {
+            display: none;
+        }
+        .articulo-main:hover .description {
+            display: block;
+        }
+        .burger-menu {
+            display: none;
+        }
+        .lg-w-33-footer {
+            flex: 1;
+        }
+    }
+    
+    @media (min-width: 1281px) {
+        .burger-menu {
+            display: none;
+        }
+        .articulo-main:hover{
+            transition: 10ms;
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+    }
